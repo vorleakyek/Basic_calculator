@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 400px;
+  background-color: black;
+  color: white;
+}
+
+.screen {
+  text-align: right;
+  padding: 20px 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+
+.calc-button-row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
+}
+
+.calc-button {
+  height: 100px;
+  flex-basis: 24.5%;
+  text-align: center;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 40px;
+  background-color: #d8d9db;
+  border: none;
+  cursor: pointer;
+}
+
+.double {
+  flex-basis: 49.7%;
+}
+
+.tripple {
+  flex-basis: 74.8%;
+}
+
+.calc-button:last-child {
+  background-color: #df974c;
+  color: white;
+}
+
+.calc-button:hover {
+  background-color: #ebebeb;
+}
+
+.calc-button:active {
+  background-color: #bbbcbe;
+}
+
+.calc-button:last-child:hover {
+  background-color: #dfb07e;
+}
+
+.calc-button:last-child:active {
+  background-color: #dd8d37;
+}
+
+/*Is there any padding there??? */
+.calc-button-row:last-child {
+  padding-bottom: 0;
+}
